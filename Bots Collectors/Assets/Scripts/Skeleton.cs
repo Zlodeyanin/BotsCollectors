@@ -10,7 +10,7 @@ public class Skeleton : MonoBehaviour
         IsBusy = false;
     }
 
-    public void GoToChest(Chest chest)
+    public void GoToChest(ref Chest chest)
     {
         if (chest != null)
         {

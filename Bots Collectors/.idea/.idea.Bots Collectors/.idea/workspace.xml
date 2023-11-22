@@ -15,6 +15,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/f7/e9495f1c/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6073CF49-ED70-4E95-8B8A-66D540DEA948/27/df0f94f1/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6073CF49-ED70-4E95-8B8A-66D540DEA948/a8/ab401fa3/SynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkeletonAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/44/32d44afc/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6073CF49-ED70-4E95-8B8A-66D540DEA948/23/cae50e8e/Thread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/0e/cf9d3380/StackTraceUtility.cs" root0="SKIP_HIGHLIGHTING" />
@@ -24,6 +25,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332C534-A8A4-4623-B2E5-CC943A0B790E/0f/4908aad1/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6073CF49-ED70-4E95-8B8A-66D540DEA948/b9/dd4fa12b/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6073CF49-ED70-4E95-8B8A-66D540DEA948/04/702111d0/IndexOutOfRangeException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SkeletonTakeChest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,8 +33,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Chest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChestSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skeleton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Base.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonTakeChest.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +84,7 @@
       <updated>1699187136840</updated>
       <workItem from="1699187143881" duration="11113000" />
       <workItem from="1700145298493" duration="1290000" />
+      <workItem from="1700657113937" duration="5054000" />
     </task>
     <servers />
   </component>

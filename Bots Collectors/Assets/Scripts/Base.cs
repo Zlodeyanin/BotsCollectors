@@ -15,9 +15,13 @@ public class Base : MonoBehaviour
     private void Update()
     {
         FindChest();
-        
+
         if (_isChestFind)
-            _skeletonSquad.FirstOrDefault(skeleton => skeleton.IsBusy == false)?.GoToChest(_chests.FirstOrDefault(chest => chest.IsFree));
+        {
+            Chest chest = _chests.FirstOrDefault(chest => chest.IsFree);
+
+            _skeletonSquad.FirstOrDefault(skeleton => skeleton.IsBusy == false)?.GoToChest(ref chest);
+        }
     }
 
     private void OnTriggerEnter(Collider collision)

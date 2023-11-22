@@ -48,7 +48,9 @@
           <e p="Chest.cs" t="Include" />
           <e p="ChestSpawner.cs" t="Include" />
           <e p="Skeleton.cs" t="Include" />
+          <e p="SkeletonAnimator.cs" t="Include" />
           <e p="SkeletonMovement.cs" t="Include" />
+          <e p="SkeletonTakeChest.cs" t="Include" />
         </e>
       </e>
       <e p="Bots Collectors.sln" t="IncludeFlat" />
