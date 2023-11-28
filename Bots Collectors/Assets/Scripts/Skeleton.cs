@@ -16,7 +16,6 @@ public class Skeleton : MonoBehaviour
         {
             IsBusy = true;
             Chest = chest;
-            Chest.ChangeIsFree();
         }
     }
 

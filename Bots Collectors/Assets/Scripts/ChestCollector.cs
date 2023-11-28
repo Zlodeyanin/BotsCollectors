@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Skeleton))]
-public class SkeletonTakeChest : MonoBehaviour
+public class ChestCollector : MonoBehaviour
 {
     public bool IsChestTaken { get; private set; }
 
@@ -20,11 +20,13 @@ public class SkeletonTakeChest : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.TryGetComponent(out Chest chest) && chest.IsTaken == false)
+        if (collision.collider.TryGetComponent(out Chest chest))
         {
-            IsChestTaken = true;
-            _chest.SetSkeletonParent(_skeleton.transform);
-            _chest.ChangeIsTaken();
+            if (_chest == chest)
+            {
+                _chest.SetSkeletonParent(_skeleton.transform);
+                IsChestTaken = true;
+            }
         }
     }
 

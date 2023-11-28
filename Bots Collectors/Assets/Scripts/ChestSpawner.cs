@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ChestSpawner : MonoBehaviour
@@ -10,6 +11,7 @@ public class ChestSpawner : MonoBehaviour
     private Transform[] _spawnPoints;
     private Coroutine _spawner;
     private bool _isSpawning;
+    private Queue<Chest> _chests = new Queue<Chest>();
 
     private void Start()
     {
@@ -46,8 +48,14 @@ public class ChestSpawner : MonoBehaviour
         while (_isSpawning)
         {
             int index = Random.Range(spawnPointsMinIndex, spawnPointsMaxIndex);
-            Instantiate(_chest.gameObject, _spawnPoints[index].transform);
+            GameObject chest = Instantiate(_chest.gameObject, _spawnPoints[index].transform);
+            _chests.Enqueue(chest.GetComponent<Chest>());
             yield return respawn;
         }
+    }
+
+    public Chest TransferChest()
+    {
+        return _chests.Count > 0 ? _chests.Dequeue() : null;
     }
 }
