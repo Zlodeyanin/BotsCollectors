@@ -39,12 +39,14 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonTakeChest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChestSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Base.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Skeleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Chest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChestCollector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NewBaseBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseMaterialChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkeletonMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Skeleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Base.cs" />
       </list>
     </option>
   </component>
@@ -63,10 +65,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13820">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13820" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -95,6 +97,12 @@
       <workItem from="1700657113937" duration="5054000" />
       <workItem from="1700729555705" duration="5980000" />
       <workItem from="1701187817875" duration="3358000" />
+      <workItem from="1701625600404" duration="1680000" />
+      <workItem from="1701761048634" duration="8520000" />
+      <workItem from="1702238403672" duration="8386000" />
+      <workItem from="1702315737778" duration="10654000" />
+      <workItem from="1702339794546" duration="4500000" />
+      <workItem from="1702346134409" duration="1188000" />
     </task>
     <servers />
   </component>
@@ -183,5 +191,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="177" y="0" width="1547" height="1037" key="dock-window-1/0.0.1920.1050@0.0.1920.1050" timestamp="1699189015728" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1702321116747">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1702321116747" />
   </component>
 </project>

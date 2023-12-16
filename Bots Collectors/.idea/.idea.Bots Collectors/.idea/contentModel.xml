@@ -45,9 +45,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Base.cs" t="Include" />
+          <e p="BaseMaterialChanger.cs" t="Include" />
           <e p="Chest.cs" t="Include" />
           <e p="ChestCollector.cs" t="Include" />
           <e p="ChestSpawner.cs" t="Include" />
+          <e p="NewBaseBuilder.cs" t="Include" />
           <e p="Skeleton.cs" t="Include" />
           <e p="SkeletonAnimator.cs" t="Include" />
           <e p="SkeletonMovement.cs" t="Include" />
